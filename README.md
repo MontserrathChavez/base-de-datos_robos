@@ -2,22 +2,7 @@
 Aqui se analizan datos de robos durante cierto periodo 
 library(readxl)
 > list.files()
- [1] "2201-Texto del artículo-6442-1-10-20150714.pdf"                                 
- [2] "Área que me gusta.docx"                                                         
- [3] "Autobiografía Andrea Montserrath Ledezma Chávez.docx"                           
- [4] "Curriculum Vitae-Montserrath Chavez.pdf"                                        
- [5] "diario de inglees.docx"                                                         
- [6] "document.pdf"                                                                   
- [7] "Ensayo Prospectiva y su función.docx"                                           
- [8] "Ensayo Prospectiva_Montserrath.pdf"                                             
- [9] "grafica de barras con colores.pdf"                                              
-[10] "Habilidades y Competencias que me sirven para un trabajo.pdf"                   
-[11] "leiras_2004_de_que_hablamos_cuando_hablamos_de_instituciones_informales (1).pdf"
-[12] "Libro2.xlsx"                                                                    
-[13] "Matriz profesional .pdf"                                                        
-[14] "prospectiva_politica_guia_para_su_comprension_-y_practica_guillermina_baena.pdf"
-[15] "recoleccion de datos de robos.R"                                                
-[16] "Trabajo numero 3, programacion R.R"                                             
+[12] "Libro2.xlsx"                                                                                                                 
 > datos <- read_excel("Libro2.xlsx")
 > View(datos)
 > summary(datos)
